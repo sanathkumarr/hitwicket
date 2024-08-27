@@ -35,7 +35,7 @@ const GameBoard: React.FC = () => {
     const [possibleMoves, setPossibleMoves] = useState<{ x: number, y: number }[]>([]);
     const [message, setMessage] = useState<string>('');
     const [invalidMove, setInvalidMove] = useState<boolean>(false);
-    const [username, setUsername] = useState<string>('');
+    const [username] = useState<string>('');
 
     useEffect(() => {
         
